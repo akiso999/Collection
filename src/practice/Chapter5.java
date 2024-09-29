@@ -18,14 +18,13 @@ public class Chapter5 {
 					add(new Task(LocalDate.of(2021, 8, 10), "散髪に行く"));
 					add(new Task(LocalDate.of(2021, 11, 9), "スクールの課題を解く"));
 				}
-				};
+			};
 
-				Collections.sort(list);
+			Collections.sort(list);
 
-				for (int i = 0; i < list.size(); i++) {
-					System.out.println(list.get(i));
-				}
-
+			for (int i = 0; i < list.size(); i++) {
+				System.out.println(list.get(i));
+			}
 
 		}
 }
