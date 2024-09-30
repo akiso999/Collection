@@ -12,23 +12,7 @@ public class Task implements Comparable<Task>{
 		this.date = date;
 		this.task = task;
 	}
-	
-//	public LocalDate getDate() {
-//		return date;
-//	}
 
-//	public String getTask() {
-//		return task;
-//	}
-	
-//	public void setDate(LocalDate date) {
-//		this.date = date;
-//	}
-
-//	public void setTask(String task) {
-//		this.task = task;
-//	}
-		
 	// compareToメソッドをオーバーライドする
 	// 日付で並び替えるため、LocalDateのcompareToを使う
 	@Override
@@ -38,6 +22,6 @@ public class Task implements Comparable<Task>{
 
 	@Override
 	public String toString() {
-	return this.date + ":" + this.task;
+		return this.date + ":" + this.task;
 	}
 }
